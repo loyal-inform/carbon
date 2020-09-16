@@ -9,6 +9,12 @@
 // 🌍 Global
 //-------------------------
 
+// WE NEED DARK THEME BUILD
+@import './vendor/@carbon/elements/scss/themes/theme-maps';
+$carbon--theme: $carbon--theme--g100;
+ //$carbon--theme: $carbon--theme--g90;
+
+
 /// If true, includes font face mixins in `_css--font-face.scss` depending on the `css--plex` feature flag
 /// @access public
 /// @type Bool
